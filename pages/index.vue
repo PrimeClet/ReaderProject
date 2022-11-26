@@ -390,6 +390,154 @@
                   <!-- End Card -->
                 </div>
                 <!-- End Col -->
+                <div class="js-shuffle-item col-sm-6 mb-3" data-groups='["product-design"]'>
+                  <!-- Card -->
+                  <a class="card card-flush card-transition" href="">
+                    <img class="card-img-top" src="https://pictures.abebooks.com/inventory/md/md31318651635.jpg" alt="Image Description">
+                    <div class="card-body py-1">
+                      <div class="d-flex flex-row justify-content-around align-items-center w-100 actions">
+                        <i class="fa-regular fa-share-from-square"></i>
+                        <i class="fa-regular fa-book-open"></i>
+                        <i class="fa-regular fa-circle-plus"></i>
+                      </div>
+                      <h6 class="card-title fw-bold pt-1 pb-0 mb-0">Ender's Game</h6>
+                      <span class="card-subtitle text-body text-sm">Orson Scott Card</span>
+                      <p class="text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                      </p>
+                    </div>
+                  </a>
+                  <!-- End Card -->
+                </div>
+                <!-- End Col -->
+
+                <div class="js-shuffle-item col-sm-6 mb-3" data-groups='["product-design"]'>
+                  <!-- Card -->
+                  <a class="card card-flush card-transition" href="">
+                    <img class="card-img-top" src="https://pictures.abebooks.com/inventory/md/md31318660059.jpg" alt="Image Description">
+                    <div class="card-body py-1">
+                      <div class="d-flex flex-row justify-content-around align-items-center w-100 actions">
+                        <i class="fa-regular fa-share-from-square"></i>
+                        <i class="fa-regular fa-book-open"></i>
+                        <i class="fa-regular fa-circle-plus"></i>
+                      </div>
+                      <h6 class="card-title fw-bold pt-1 pb-0 mb-0">The Perks of Being...</h6>
+                      <span class="card-subtitle text-body text-sm">Stephen Chbosky</span>
+                      <p class="text-sm">
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                      </p>
+                    </div>
+                  </a>
+                  <!-- End Card -->
+                </div>
+                <!-- End Col -->
+
+                <div class="js-shuffle-item col-sm-6 mb-3" data-groups='["product"]'>
+                  <!-- Card -->
+                  <a class="card card-flush card-transition" href="">
+                    <img class="card-img-top" src="https://pictures.abebooks.com/inventory/md/md31318653544.jpg" alt="Image Description">
+                    <div class="card-body py-1">
+                      <div class="d-flex flex-row justify-content-around align-items-center w-100 actions">
+                        <i class="fa-regular fa-share-from-square"></i>
+                        <i class="fa-regular fa-book-open"></i>
+                        <i class="fa-regular fa-circle-plus"></i>
+                      </div>
+                      <h6 class="card-title fw-bold pt-1 pb-0 mb-0">The Hobbit</h6>
+                      <span class="card-subtitle text-body text-sm">J.R.R Tolken</span>
+                      <p class="text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </p>
+                    </div>
+                  </a>
+                  <!-- End Card -->
+                </div>
+                <!-- End Col -->
+
+                <div class="js-shuffle-item col-sm-6 mb-3" data-groups='["branding"]'>
+                  <!-- Card -->
+                  <a class="card card-flush card-transition" href="">
+                    <img class="card-img-top" src="https://pictures.abebooks.com/inventory/md/md31311104526.jpg" alt="Image Description">
+                    <div class="card-body py-1">
+                      <div class="d-flex flex-row justify-content-around align-items-center w-100 actions">
+                        <i class="fa-regular fa-share-from-square"></i>
+                        <i class="fa-regular fa-book-open"></i>
+                        <i class="fa-regular fa-circle-plus"></i>
+                      </div>
+                      <h6 class="card-title fw-bold pt-1 pb-0 mb-0">Holbien - Masterpi...</h6>
+                      <span class="card-subtitle text-body text-sm">S.L. Bensusan</span>
+                      <p class="text-sm">
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                      </p>
+                    </div>
+                  </a>
+                  <!-- End Card -->
+                </div>
+                <!-- End Col -->
+                <div class="js-shuffle-item col-sm-6 mb-3" data-groups='["product"]'>
+                  <!-- Card -->
+                  <a class="card card-flush card-transition" href="">
+                    <img class="card-img-top" src="https://pictures.abebooks.com/inventory/md/md31318653544.jpg" alt="Image Description">
+                    <div class="card-body py-1">
+                      <div class="d-flex flex-row justify-content-around align-items-center w-100 actions">
+                        <i class="fa-regular fa-share-from-square"></i>
+                        <i class="fa-regular fa-book-open"></i>
+                        <i class="fa-regular fa-circle-plus"></i>
+                      </div>
+                      <h6 class="card-title fw-bold pt-1 pb-0 mb-0">The Hobbit</h6>
+                      <span class="card-subtitle text-body text-sm">J.R.R Tolken</span>
+                      <p class="text-sm">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </p>
+                    </div>
+                  </a>
+                  <!-- End Card -->
+                </div>
+                <!-- End Col -->
+
+                <div class="js-shuffle-item col-sm-6 mb-3" data-groups='["branding"]'>
+                  <!-- Card -->
+                  <a class="card card-flush card-transition" href="">
+                    <img class="card-img-top" src="https://pictures.abebooks.com/inventory/md/md31311104526.jpg" alt="Image Description">
+                    <div class="card-body py-1">
+                      <div class="d-flex flex-row justify-content-around align-items-center w-100 actions">
+                        <i class="fa-regular fa-share-from-square"></i>
+                        <i class="fa-regular fa-book-open"></i>
+                        <i class="fa-regular fa-circle-plus"></i>
+                      </div>
+                      <h6 class="card-title fw-bold pt-1 pb-0 mb-0">Holbien - Masterpi...</h6>
+                      <span class="card-subtitle text-body text-sm">S.L. Bensusan</span>
+                      <p class="text-sm">
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                        <i class="bi bi-star-fill gray"></i>
+                      </p>
+                    </div>
+                  </a>
+                  <!-- End Card -->
+                </div>
+                <!-- End Col -->
               </div>
               <!-- End Row -->
 
