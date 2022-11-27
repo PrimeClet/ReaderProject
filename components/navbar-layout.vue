@@ -64,7 +64,7 @@
    <main class="pt-2">
      <div class="container-fluid">
        <div class="row px-2">
-         <div class="col-md-2 px-6 d-none d-md-block d-lg-block">
+         <div class="col-md-2 px-6 d-none d-md-none d-lg-block">
            <p class="">BROWSE</p>
            <ul class="list-group list-group-flush">
              <a class="list-group-item" href="#">
@@ -117,6 +117,13 @@ export default {
   name: "navbar-layout",
   mounted() {
 
+    // eslint-disable-next-line no-unused-expressions
+    (function($) {
+      // INITIALIZATION OF NAVBAR
+      // =======================================================
+      // eslint-disable-next-line no-undef
+      new HSHeader('#header').init()
+    });
   }
 }
 </script>

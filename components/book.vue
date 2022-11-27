@@ -18,8 +18,8 @@
         <h6 class="card-title fw-bold pt-1 pb-0 mb-0">{{ bookData.title }}</h6>
         <span class="card-subtitle text-body text-sm">{{ bookData.author }}</span>
         <p class="text-sm stars">
-          <i v-for="i in bookData.stars" :key="i" class="bi bi-star-fill"></i>
-          <i v-for="data in 5-bookData.stars" :key="data" class="bi bi-star-fill gray"></i>
+          <i v-for="i in bookData.stars" :key="'st'+i" class="bi bi-star-fill"></i>
+          <i v-for="data in 5-bookData.stars" :key="'ust'+data" class="bi bi-star-fill gray"></i>
         </p>
       </div>
     </a>

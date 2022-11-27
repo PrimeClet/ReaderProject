@@ -1,6 +1,6 @@
 <template>
-  <div class="col-md-10 col-sm-12">
-    <div class="col-md-10 col-sm-12">
+  <div class="col-lg-10 col-md-12  col-sm-12">
+    <div class="col-lg-10 col-md-12 col-sm-12">
       <h6 class="gray pb-3">Recently Added</h6>
       <recent-books :recent-books="recentBooks"></recent-books>
       <!-- End Row -->
