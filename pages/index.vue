@@ -1,15 +1,15 @@
 <template>
   <div class="col-lg-10 col-md-12  col-sm-12">
-    <div class="col-lg-10 col-md-12 col-sm-12">
-      <h6 class="gray pb-3">Recently Added</h6>
+    <div class="col-lg-9 col-md-12 col-sm-12">
+      <p class="gray pb-3 entete">Recently Added</p>
       <recent-books :recent-books="recentBooks"></recent-books>
       <!-- End Row -->
-      <h6 class="gray pb-3">Recommended for you</h6>
+      <p class="gray pb-3 entete">Recommended for you</p>
       <recommend-books :recommended-book="books"></recommend-books>
       <!-- End Row -->
 
     </div>
-    <div class="col-md-2 col-sm-12"></div>
+    <div class="col-md-3 col-sm-12"></div>
   </div>
 </template>
 
@@ -160,6 +160,10 @@ export default {
 <style>
 .text-sm{
   font-size: 13px;
+}
+.entete{
+  font-size: larger;
+  font-family: 'Roboto';
 }
 
 .gray{

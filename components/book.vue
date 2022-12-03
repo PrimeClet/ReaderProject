@@ -15,7 +15,7 @@
             <i class="fa-regular fa-circle-plus"></i>
           </a>
         </div>
-        <h6 class="card-title fw-bold pt-1 pb-0 mb-0">{{ bookData.title }}</h6>
+        <p class="card-title text-black fw-bold pt-1 pb-0 mb-0">{{ bookData.title }}</p>
         <span class="card-subtitle text-body text-sm">{{ bookData.author }}</span>
         <p class="text-sm stars">
           <i v-for="i in bookData.stars" :key="'st'+i" class="bi bi-star-fill"></i>
@@ -86,7 +86,7 @@ export default {
   left: 0;
   display: block;
   width: 100%;
-  height: 76%;
+  height: 74%;
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.6);
   z-index: 2;
@@ -101,7 +101,7 @@ export default {
   opacity: 0;
   transform: translateY(50px);
   transition: 0.5s;
-  top: 54%;
+  top: 51%;
 }
 .card .actions h1 {
   margin: 0px;

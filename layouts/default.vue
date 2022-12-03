@@ -6,9 +6,17 @@
 
 <script>
 import NavbarLayout from "../components/navbar-layout";
+
 export default {
   name: "default",
-  components: {NavbarLayout}
+  components: {NavbarLayout},
+  mounted: function () {
+    (function ($) {
+      "use strict";
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+    })()
+  }
 }
 </script>
 
