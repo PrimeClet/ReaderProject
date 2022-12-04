@@ -72,13 +72,13 @@
                </ul>
                <div class="py-2 px-3">
                  <!-- Button trigger modal -->
-                 <button type="button" class="btn btn-primary btn-sm me-md-4" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                 <button type="button" class="btn btn-primary btn-sm me-md-4" data-bs-toggle="modal" data-bs-target="#createShelf">
                    Create a Shelf
                  </button>
                  <!-- End Button trigger modal -->
 
                  <!-- Modal -->
-                 <div id="exampleModalCenter" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                 <div id="createShelf" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                    <div class="modal-dialog modal-dialog-centered" role="document">
                      <div class="modal-content">
                        <div class="modal-header">
@@ -88,16 +88,16 @@
                        <div class="modal-body">
                          <!-- Form -->
                          <div class="mb-3">
-                           <label class="form-label" for="title">Shelf's Title</label>
-                           <input type="text" class="form-control form-control-lg" name="title" id="title" placeholder="shelf title" aria-label="" required v-model="title">
+                           <label class="form-label" for="titleLg">Shelf's Title</label>
+                           <input type="text" class="form-control form-control-lg" name="title" id="titleLg" placeholder="shelf title" aria-label="" required v-model="title">
                            <span class="invalid-feedback">Please enter a valid Shel Title address.</span>
                          </div>
                          <!-- End Form -->
 
                          <!-- Form -->
                          <div class="mb-3">
-                           <label class="form-label" for="content">Content Description</label>
-                           <input type="password" class="form-control form-control-lg" name="password" id="content" placeholder="8+ characters required" aria-label="8+ characters required" required v-model="content">
+                           <label class="form-label" for="contentLg">Content Description</label>
+                           <input type="password" class="form-control form-control-lg" name="password" id="contentLg" placeholder="8+ characters required" aria-label="8+ characters required" required v-model="content">
                            <span class="invalid-feedback">Your password is invalid. Please try again.</span>
                          </div>
                        </div>
