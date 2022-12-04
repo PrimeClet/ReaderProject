@@ -1,0 +1,31 @@
+export default {
+  hello: 'sannu',
+  pages: {
+    home: {
+      sellinfo:
+        'Kula da labaran da kuka fi so kuma a sanar da ku game da sabuntawa.',
+      headline: 'Take',
+      login: 'Shiga',
+      signup: 'Yi rijista',
+      headlinetitle: 'Take anan',
+      article: 'Labari',
+      articleverification: 'Manna mahaɗin labarin kuma tabbatar',
+      verify: 'duba',
+      articletitle: 'Canza take',
+      addchannel: 'channelara tashar',
+      publishbutton: 'Buga',
+      postquestion: 'Shin kun tabbata kuna son sanya wannan?',
+      unreadnews: "labarai mara karantawa yana wadatar da za'a duba",
+      sort: 'Kasa',
+      sortbest: 'Mafi kyau',
+      newest: 'Mafi sabo',
+      oldest: 'Mafi tsufa',
+      muv: 'Mafi yawan mutane sun zabi',
+      random: 'na ba shiri',
+      channel: 'hanyar ruwa',
+      nomore: 'babu kuma',
+      discover: 'Gano',
+    },
+    contacts: 'taɓa',
+  },
+}

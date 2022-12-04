@@ -8,6 +8,13 @@
          <a class="navbar-brand" href="/" aria-label="Space">
            <img class="navbar-brand-logo" src="@/static/logos/logo.svg" alt="Image Description">
          </a>
+         <ul class="navbar-nav">
+           <li class="nav-divider d-none d-md-block d-lg-block d-xl-block"></li>
+         </ul>
+         <div class="pl-2 d-none d-md-block d-lg-block d-xl-block">
+           <input class="form-control form-control-sm d-inline-block" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
+         </div>
+
          <!-- End Default Logo -->
 
          <!-- Toggler -->
@@ -24,171 +31,86 @@
          <!-- Collapse -->
          <div class="collapse navbar-collapse" id="navbarNavDropdown">
            <ul class="navbar-nav">
-             <!-- Landings -->
-             <li class="hs-has-mega-menu nav-item" data-hs-mega-menu-item-options="{
-                    &quot;desktop&quot;: {
-                      &quot;maxWidth&quot;: &quot;30rem&quot;
-                    }
-                  }">
-               <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" aria-current="page" href="#" role="button" aria-expanded="false">Landings</a>
-
-               <!-- Mega Menu -->
-               <div class="hs-mega-menu hs-position-right-fix dropdown-menu hs-mega-menu-desktop-lg animated" aria-labelledby="landingsMegaMenu" style="min-width: 30rem; max-width: 30rem; animation-duration: 300ms;">
-                 <!-- Main Content -->
-                 <div class="navbar-dropdown-menu-inner">
-                   <div class="row">
-                     <div class="col-sm mb-3 mb-sm-0">
-                       <span class="dropdown-header">Classic</span>
-                       <a class="dropdown-item active" href="./index.html">Corporate</a>
-                       <a class="dropdown-item " href="./landing-agency.html">Agency</a>
-                       <a class="dropdown-item " href="./landing-consulting.html">Consulting</a>
-                       <a class="dropdown-item " href="./landing-services.html">Services</a>
-                       <a class="dropdown-item " href="./landing-business.html">Business</a>
-                     </div>
-
-                     <div class="col-sm">
-                       <span class="dropdown-header">Services</span>
-                       <a class="dropdown-item " href="./landing-services-growth.html">Growth</a>
-                       <a class="dropdown-item " href="./landing-services-saas.html">SaaS</a>
-                       <a class="dropdown-item " href="./landing-services-wallet.html">Wallet</a>
-                       <a class="dropdown-item " href="./landing-services-api.html">API</a>
-                     </div>
-                   </div>
-                   <!-- End Row -->
-                 </div>
-                 <!-- End Main Content -->
-               </div>
-               <!-- End Mega Menu -->
-             </li>
-             <!-- End Landings -->
-
-             <!-- Pages -->
-             <li class="hs-has-mega-menu nav-item">
-               <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Pages</a>
-
-               <!-- Mega Menu -->
-               <div class="hs-mega-menu hs-position-right dropdown-menu w-100 hs-mega-menu-desktop-lg animated" aria-labelledby="pagesMegaMenu" style="min-width: 42rem; animation-duration: 300ms;">
-                 <!-- Main Content -->
-                 <div class="navbar-dropdown-menu-inner">
-                   <div class="row">
-                     <div class="col-sm-6 col-md-3">
-                       <span class="dropdown-header">Company</span>
-                       <a class="dropdown-item " href="./page-about.html">About</a>
-                       <a class="dropdown-item " href="./page-services.html">Services</a>
-                       <a class="dropdown-item " href="./page-customer-stories.html">Customer Stories</a>
-                       <a class="dropdown-item " href="./page-customer-story.html">Customer Story</a>
-                       <a class="dropdown-item " href="./page-help-center.html">Help Center</a>
-                       <a class="dropdown-item " href="./page-help-center-categories.html">Help Center: Categories</a>
-                       <a class="dropdown-item " href="./page-help-center-article.html">Help Center: Article</a>
-                     </div>
-
-                     <div class="col-sm-6 col-md-3 mb-3 mb-md-0">
-                       <span class="dropdown-header invisible">Company</span>
-                       <a class="dropdown-item " href="./page-careers.html">Careers</a>
-                       <a class="dropdown-item " href="./page-careers-overview.html">Careers: Overview</a>
-                       <a class="dropdown-item " href="./page-hire-us.html">Hire Us</a>
-                       <a class="dropdown-item " href="./page-contacts.html">Contacts</a>
-                       <a class="dropdown-item " href="./page-login.html">Log In</a>
-                       <a class="dropdown-item " href="./page-signup.html">Sign Up</a>
-                       <a class="dropdown-item " href="./page-reset-password.html">Forgot Password</a>
-                     </div>
-
-                     <div class="col-sm-6 col-md-3 mb-3 mb-md-0">
-                       <span class="dropdown-header">Portfolio</span>
-                       <a class="dropdown-item " href="./portfolio-modern.html">Modern</a>
-                       <a class="dropdown-item " href="./portfolio-classic.html">Classic</a>
-                       <a class="dropdown-item " href="./portfolio-case-study.html">Case Study</a>
-                     </div>
-
-                     <div class="col-sm-6 col-md-3">
-                       <span class="dropdown-header">Specialty pages</span>
-                       <a class="dropdown-item " href="./page-pricing.html">Pricing</a>
-                       <a class="dropdown-item " href="./page-coming-soon.html">Coming Soon</a>
-                       <a class="dropdown-item " href="./page-coming-soon-simple.html">Coming Soon: Simple</a>
-                       <a class="dropdown-item " href="./page-error-404.html">Error 404</a>
-                       <a class="dropdown-item " href="./page-terms.html">Terms &amp; Conditions</a>
-                       <a class="dropdown-item " href="./page-privacy.html">Privacy &amp; Policy</a>
-                     </div>
-                   </div>
-                   <!-- End Row -->
-                 </div>
-                 <!-- End Main Content -->
-               </div>
-               <!-- End Mega Menu -->
-             </li>
-             <!-- End Pages -->
-
-             <!-- Blog -->
-             <li class="hs-has-sub-menu nav-item">
-               <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Blog</a>
-
-               <!-- Mega Menu -->
-               <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated" aria-labelledby="blogMegaMenu" style="min-width: 12rem; animation-duration: 300ms;">
-                 <a class="dropdown-item " href="./blog-classic.html">Classic</a>
-                 <a class="dropdown-item " href="./blog-article.html">Article</a>
-                 <a class="dropdown-item " href="./blog-author-profile.html">Author Profile</a>
-               </div>
-               <!-- End Mega Menu -->
-             </li>
-             <!-- End Blog -->
-
-             <!-- Docs -->
-             <li class="hs-has-mega-menu nav-item" data-hs-mega-menu-item-options="{
-                    &quot;desktop&quot;: {
-                      &quot;maxWidth&quot;: &quot;20rem&quot;
-                    }
-                  }">
-               <a id="docsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Docs</a>
-
-               <!-- Mega Menu -->
-               <div class="hs-mega-menu hs-position-right dropdown-menu hs-mega-menu-desktop-lg animated" aria-labelledby="docsMegaMenu" style="min-width: 20rem; max-width: 20rem; animation-duration: 300ms;">
-                 <!-- Link -->
-                 <a class="navbar-dropdown-menu-media-link" href="./documentation/index.html">
-                   <div class="d-flex">
-                     <div class="flex-shrink-0">
-                      <span class="svg-icon svg-icon-sm text-primary">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4.85714 1H11.7364C12.0911 1 12.4343 1.12568 12.7051 1.35474L17.4687 5.38394C17.8057 5.66895 18 6.08788 18 6.5292V19.0833C18 20.8739 17.9796 21 16.1429 21H4.85714C3.02045 21 3 20.8739 3 19.0833V2.91667C3 1.12612 3.02045 1 4.85714 1ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"></path>
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85714 3H14.7364C15.0911 3 15.4343 3.12568 15.7051 3.35474L20.4687 7.38394C20.8057 7.66895 21 8.08788 21 8.5292V21.0833C21 22.8739 20.9796 23 19.1429 23H6.85714C5.02045 23 5 22.8739 5 21.0833V4.91667C5 3.12612 5.02045 3 6.85714 3ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"></path>
-                        </svg>
-
-                      </span>
-                     </div>
-
-                     <div class="flex-grow-1 ms-3">
-                       <span class="navbar-dropdown-menu-media-title">Documentation <span class="badge bg-primary rounded-pill ms-1">v2.3.1</span></span>
-                       <p class="navbar-dropdown-menu-media-desc">Development guides for building projects with Space</p>
-                     </div>
-                   </div>
+             <div class="col-12 px-6 d-lg-none d-xl-none d-xxl-none">
+               <p class="form-label">BROWSE</p>
+               <ul class="list-group list-group-flush">
+                 <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'topBooks')" ref="topBooks">
+                   <i class="bi bi-clipboard-data list-group-icon"></i> Top Books
                  </a>
-                 <!-- End Link -->
+                 <a class="list-group-item tabLinks active" href="#" @click="makeItActive($event, 'discover')" ref="discover">
+                   <i class="bi bi-globe-europe-africa list-group-icon"></i> Discover
+                 </a>
+                 <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'categorie')" ref="categorie">
+                   <i class="bi bi-inbox-fill list-group-icon"></i> Categories
+                 </a>
+               </ul>
+               <span class="divider-end py-4" ></span>
+               <p class="form-label">YOUR BOOKS</p>
+               <ul class="list-group list-group-flush">
+                 <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'reading')" ref="reading">
+                   <i class="bi bi-book list-group-icon"></i> Reading
+                 </a>
+                 <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'favorite')" ref="favorite">
+                   <i class="bi bi-heart-fill list-group-icon"></i> Favorite Reads
+                 </a>
+                 <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'history')" ref="history">
+                   <i class="bi bi-clock-history list-group-icon"></i> History
+                 </a>
+               </ul>
+               <span class="divider-end py-4"></span>
+               <p class="form-label">SHELVES</p>
+               <ul class="list-group list-group-flush">
+                 <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'shelves')" ref="shelves">
+                   <i class="bi bi-receipt list-group-icon"></i> Your Shelves
+                 </a>
+                 <a class="list-group-item" href="#" v-for="(data, $index) in shelves" :key="$index">
+                   <p> {{ data.title }}</p>
+                 </a>
+                 <!--             <button type="button" class="btn btn-primary btn-sm list-group-item" href="#">-->
+                 <!--               <i class="bi bi-clock-history list-group-icon"></i> History-->
+                 <!--             </button>-->
+               </ul>
+               <div class="py-2 px-3">
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary btn-sm me-md-4" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                   Create a Shelf
+                 </button>
+                 <!-- End Button trigger modal -->
 
-                 <div class="dropdown-divider"></div>
+                 <!-- Modal -->
+                 <div id="exampleModalCenter" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                   <div class="modal-dialog modal-dialog-centered" role="document">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalCenterTitle">Add Shelves</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <!-- Form -->
+                         <div class="mb-3">
+                           <label class="form-label" for="title">Shelf's Title</label>
+                           <input type="text" class="form-control form-control-lg" name="title" id="title" placeholder="shelf title" aria-label="" required v-model="title">
+                           <span class="invalid-feedback">Please enter a valid Shel Title address.</span>
+                         </div>
+                         <!-- End Form -->
 
-                 <!-- Link -->
-                 <a class="navbar-dropdown-menu-media-link" href="./snippets/index.html">
-                   <div class="d-flex">
-                     <div class="flex-shrink-0">
-                      <span class="svg-icon svg-icon-sm text-primary">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.3" d="M21 2H13C12.4 2 12 2.4 12 3V13C12 13.6 12.4 14 13 14H21C21.6 14 22 13.6 22 13V3C22 2.4 21.6 2 21 2ZM15.7 8L14 10.1V5.80005L15.7 8ZM15.1 4H18.9L17 6.40002L15.1 4ZM17 9.59998L18.9 12H15.1L17 9.59998ZM18.3 8L20 5.90002V10.2L18.3 8ZM9 2H3C2.4 2 2 2.4 2 3V21C2 21.6 2.4 22 3 22H9C9.6 22 10 21.6 10 21V3C10 2.4 9.6 2 9 2ZM4.89999 12L4 14.8V9.09998L4.89999 12ZM4.39999 4H7.60001L6 8.80005L4.39999 4ZM6 15.2L7.60001 20H4.39999L6 15.2ZM7.10001 12L8 9.19995V14.9L7.10001 12Z" fill="#035A4B"></path>
-                          <path d="M21 18H13C12.4 18 12 17.6 12 17C12 16.4 12.4 16 13 16H21C21.6 16 22 16.4 22 17C22 17.6 21.6 18 21 18ZM19 21C19 20.4 18.6 20 18 20H13C12.4 20 12 20.4 12 21C12 21.6 12.4 22 13 22H18C18.6 22 19 21.6 19 21Z" fill="#035A4B"></path>
-                        </svg>
-
-                      </span>
-                     </div>
-
-                     <div class="flex-grow-1 ms-3">
-                       <span class="navbar-dropdown-menu-media-title">Snippets</span>
-                       <p class="navbar-dropdown-menu-media-desc">Move quickly with copy-to-clipboard feature</p>
+                         <!-- Form -->
+                         <div class="mb-3">
+                           <label class="form-label" for="content">Content Description</label>
+                           <input type="password" class="form-control form-control-lg" name="password" id="content" placeholder="8+ characters required" aria-label="8+ characters required" required v-model="content">
+                           <span class="invalid-feedback">Your password is invalid. Please try again.</span>
+                         </div>
+                       </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-white" data-bs-dismiss="modal">Close</button>
+                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="addShelves">Add </button>
+                       </div>
                      </div>
                    </div>
-                 </a>
-                 <!-- End Link -->
+                 </div>
+                 <!-- End Modal -->
                </div>
-               <!-- End Mega Menu -->
-             </li>
-             <!-- End Docs -->
+             </div>
 
              <li class="nav-divider"></li>
 
@@ -230,55 +152,332 @@
          <div class="col-md-2 px-6 d-none d-md-none d-lg-block">
            <p class="form-label">BROWSE</p>
            <ul class="list-group list-group-flush">
-             <a class="list-group-item" href="#">
+             <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'topBooks')" ref="topBooks">
                <i class="bi bi-clipboard-data list-group-icon"></i> Top Books
              </a>
-             <a class="list-group-item active" href="#">
+             <a class="list-group-item tabLinks active" href="#" @click="makeItActive($event, 'discover')" ref="discover">
                <i class="bi bi-globe-europe-africa list-group-icon"></i> Discover
              </a>
-             <a class="list-group-item" href="#">
+             <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'categorie')" ref="categorie">
                <i class="bi bi-inbox-fill list-group-icon"></i> Categories
              </a>
            </ul>
            <span class="divider-end py-4" ></span>
            <p class="form-label">YOUR BOOKS</p>
            <ul class="list-group list-group-flush">
-             <a class="list-group-item" href="#">
+             <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'reading')" ref="reading">
                <i class="bi bi-book list-group-icon"></i> Reading
              </a>
-             <a class="list-group-item" href="#">
+             <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'favorite')" ref="favorite">
                <i class="bi bi-heart-fill list-group-icon"></i> Favorite Reads
              </a>
-             <a class="list-group-item" href="#">
+             <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'history')" ref="history">
                <i class="bi bi-clock-history list-group-icon"></i> History
              </a>
            </ul>
            <span class="divider-end py-4"></span>
            <p class="form-label">SHELVES</p>
            <ul class="list-group list-group-flush">
-             <a class="list-group-item" href="#">
+             <a class="list-group-item tabLinks" href="#" @click="makeItActive($event, 'shelves')" ref="shelves">
                <i class="bi bi-receipt list-group-icon"></i> Your Shelves
+             </a>
+             <a class="list-group-item" href="#" v-for="(data, $index) in shelves" :key="$index">
+               <p> {{ data.title }}</p>
              </a>
 <!--             <button type="button" class="btn btn-primary btn-sm list-group-item" href="#">-->
 <!--               <i class="bi bi-clock-history list-group-icon"></i> History-->
 <!--             </button>-->
            </ul>
            <div class="py-2 px-3">
-             <button type="button" class="btn btn-primary btn-sm me-md-4">Create a Shelf</button>
+             <!-- Button trigger modal -->
+             <button type="button" class="btn btn-primary btn-sm me-md-4" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+               Create a Shelf
+             </button>
+             <!-- End Button trigger modal -->
+
+             <!-- Modal -->
+             <div id="exampleModalCenter" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalCenterTitle">Add Shelves</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                     <!-- Form -->
+                     <div class="mb-3">
+                       <label class="form-label" for="title">Shelf's Title</label>
+                       <input type="text" class="form-control form-control-lg" name="title" id="title" placeholder="shelf title" aria-label="" required v-model="title">
+                       <span class="invalid-feedback">Please enter a valid Shel Title address.</span>
+                     </div>
+                     <!-- End Form -->
+
+                     <!-- Form -->
+                     <div class="mb-3">
+                       <label class="form-label" for="content">Content Description</label>
+                       <input type="password" class="form-control form-control-lg" name="password" id="content" placeholder="8+ characters required" aria-label="8+ characters required" required v-model="content">
+                       <span class="invalid-feedback">Your password is invalid. Please try again.</span>
+                     </div>
+                   </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-white" data-bs-dismiss="modal">Close</button>
+                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="addShelves">Add </button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <!-- End Modal -->
            </div>
          </div>
          <nuxt/>
        </div>
      </div>
    </main>
- </div>
+   <!-- ========== SECONDARY CONTENTS ========== -->
+   <!-- Sign Up -->
+   <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered" role="document">
+       <div class="modal-content">
+         <!-- Header -->
+         <div class="modal-close">
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <!-- End Header -->
 
+         <!-- Body -->
+         <div class="modal-body p-sm-5">
+           <!-- Log in -->
+           <div id="signupModalFormLogin" style="display: none; opacity: 0;">
+             <!-- Heading -->
+             <div class="text-center mb-7">
+               <h4>Log in</h4>
+               <p>Don't have an account yet?
+                 <a class="js-animation-link" href="javascript:;" role="button" data-hs-show-animation-options='{
+                           "targetSelector": "#signupModalFormSignup",
+                           "groupName": "idForm"
+                         }'>Sign up here</a>
+               </p>
+             </div>
+             <!-- End Heading -->
+
+             <div class="d-grid gap-2">
+               <a class="btn btn-white btn-lg" href="#">
+                <span class="d-flex justify-content-center align-items-center">
+<!--                  <img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg" alt="Image Description">-->
+                  Log in with Google
+                </span>
+               </a>
+
+               <a class="js-animation-link btn btn-primary btn-lg" href="#" data-hs-show-animation-options='{
+                         "targetSelector": "#signupModalFormLoginWithEmail",
+                         "groupName": "idForm"
+                       }'>Log in with Email</a>
+             </div>
+           </div>
+           <!-- End Log in -->
+
+           <!-- Log in with Modal -->
+           <div id="signupModalFormLoginWithEmail" style="display: none; opacity: 0;">
+             <!-- Heading -->
+             <div class="text-center mb-7">
+               <h4>Log in</h4>
+               <p>Don't have an account yet?
+                 <a class="js-animation-link" href="javascript:;" role="button" data-hs-show-animation-options='{
+                           "targetSelector": "#signupModalFormSignup",
+                           "groupName": "idForm"
+                         }'>Sign up here</a>
+               </p>
+             </div>
+             <!-- End Heading -->
+
+             <form class="js-validate needs-validation" novalidate>
+               <!-- Form -->
+               <div class="mb-3">
+                 <label class="form-label" for="signupModalFormLoginEmail">Your email</label>
+                 <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormLoginEmail" placeholder="email@site.com" aria-label="email@site.com" required>
+                 <span class="invalid-feedback">Please enter a valid email address.</span>
+               </div>
+               <!-- End Form -->
+
+               <!-- Form -->
+               <div class="mb-3">
+                 <div class="d-flex justify-content-between align-items-center">
+                   <label class="form-label" for="signupModalFormLoginPassword">Password</label>
+
+                   <a class="js-animation-link form-label-link" href="javascript:;" data-hs-show-animation-options='{
+                         "targetSelector": "#signupModalFormResetPassword",
+                         "groupName": "idForm"
+                       }'>Forgot Password?</a>
+                 </div>
+
+                 <input type="password" class="form-control form-control-lg" name="password" id="signupModalFormLoginPassword" placeholder="8+ characters required" aria-label="8+ characters required" required minlength="8">
+                 <span class="invalid-feedback">Please enter a valid password.</span>
+               </div>
+               <!-- End Form -->
+
+               <div class="d-grid mb-3">
+                 <button type="submit" class="btn btn-primary btn-lg">Log in</button>
+               </div>
+             </form>
+           </div>
+           <!-- End Log in with Modal -->
+
+           <!-- Sign up -->
+           <div id="signupModalFormSignup">
+             <!-- Heading -->
+             <div class="text-center mb-7">
+               <h4>Sign up</h4>
+               <p>Already have an account?
+                 <a class="js-animation-link" href="javascript:;" role="button" data-hs-show-animation-options='{
+                           "targetSelector": "#signupModalFormLogin",
+                           "groupName": "idForm"
+                         }'>Log in here</a>
+               </p>
+             </div>
+             <!-- End Heading -->
+
+             <div class="d-grid gap-3">
+               <a class="btn btn-white btn-lg" href="#">
+                <span class="d-flex justify-content-center align-items-center">
+<!--                  <img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg" alt="Image Description">-->
+                  Sign up with Google
+                </span>
+               </a>
+
+               <a class="js-animation-link btn btn-primary btn-lg" href="#" data-hs-show-animation-options='{
+                         "targetSelector": "#signupModalFormSignupWithEmail",
+                         "groupName": "idForm"
+                       }'>Sign up with Email</a>
+
+               <div class="text-center">
+                 <p class="small mb-0">By continuing you agree to our <a href="./page-terms.html">Terms and Conditions</a></p>
+               </div>
+             </div>
+           </div>
+           <!-- End Sign up -->
+
+           <!-- Sign up with Modal -->
+           <div id="signupModalFormSignupWithEmail" style="display: none; opacity: 0;">
+             <!-- Heading -->
+             <div class="text-center mb-7">
+               <h4>Sign up</h4>
+               <p>Already have an account?
+                 <a class="js-animation-link" href="javascript:;" role="button" data-hs-show-animation-options='{
+                           "targetSelector": "#signupModalFormLogin",
+                           "groupName": "idForm"
+                         }'>Log in here</a>
+               </p>
+             </div>
+             <!-- End Heading -->
+
+             <form class="js-validate need-validate" novalidate>
+               <!-- Form -->
+               <div class="mb-3">
+                 <label class="form-label" for="signupModalFormSignupEmail">Your email</label>
+                 <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormSignupEmail" placeholder="email@site.com" aria-label="email@site.com" required>
+                 <span class="invalid-feedback">Please enter a valid email address.</span>
+               </div>
+               <!-- End Form -->
+
+               <!-- Form -->
+               <div class="mb-3">
+                 <label class="form-label" for="signupModalFormSignupPassword">Password</label>
+                 <input type="password" class="form-control form-control-lg" name="password" id="signupModalFormSignupPassword" placeholder="8+ characters required" aria-label="8+ characters required" required>
+                 <span class="invalid-feedback">Your password is invalid. Please try again.</span>
+               </div>
+               <!-- End Form -->
+
+               <!-- Form -->
+               <div class="mb-3" data-hs-validation-validate-class>
+                 <label class="form-label" for="signupModalFormSignupConfirmPassword">Confirm password</label>
+                 <input type="password" class="form-control form-control-lg" name="confirmPassword" id="signupModalFormSignupConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" required data-hs-validation-equal-field="#signupModalFormSignupPassword">
+                 <span class="invalid-feedback">Password does not match the confirm password.</span>
+               </div>
+               <!-- End Form -->
+
+               <div class="d-grid mb-3">
+                 <button type="submit" class="btn btn-primary btn-lg">Sign up</button>
+               </div>
+
+               <div class="text-center">
+                 <p class="small mb-0">By continuing you agree to our <a href="#">Terms and Conditions</a></p>
+               </div>
+             </form>
+           </div>
+           <!-- End Sign up with Modal -->
+
+           <!-- Reset Password -->
+           <div id="signupModalFormResetPassword" style="display: none; opacity: 0;">
+             <!-- Heading -->
+             <div class="text-center mb-7">
+               <h4>Forgot password?</h4>
+               <p>Enter the email address you used when you joined and we'll send you instructions to reset your password.</p>
+             </div>
+             <!-- En dHeading -->
+
+             <form class="js-validate need-validate" novalidate>
+               <div class="mb-3">
+                 <!-- Form -->
+                 <div class="d-flex justify-content-between align-items-center">
+                   <label class="form-label" for="signupModalFormResetPasswordEmail" tabindex="0">Your email</label>
+
+                   <a class="js-animation-link form-label-link" href="javascript:;" data-hs-show-animation-options='{
+                           "targetSelector": "#signupModalFormLogin",
+                           "groupName": "idForm"
+                         }'>
+                     <i class="bi-chevron-left small me-1"></i> Back to Log in
+                   </a>
+                 </div>
+                 <!-- End Form -->
+
+                 <!-- Form -->
+                 <div class="mb-3">
+                   <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required>
+                   <span class="invalid-feedback">Please enter a valid email address.</span>
+                 </div>
+                 <!-- End Form -->
+
+                 <div class="d-grid">
+                   <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                 </div>
+               </div>
+             </form>
+           </div>
+           <!-- End Reset Password -->
+         </div>
+       </div>
+     </div>
+         <!-- End Body -->
+   </div>
+ </div>
 </template>
 
 <script>
 
 export default {
   name: "navbar-layout",
+  data(){
+    return {
+      title: '',
+      content: '',
+      shelves : []
+    }
+  },
+  methods:{
+    addShelves(){
+      if (this.title && this.content){
+        this.shelves.push({title: this.title, content: this.content})
+      }
+    },
+    makeItActive(evt, activity) {
+      let i, tabLinks;
+      tabLinks = document.getElementsByClassName("tabLinks");
+      for (i = 0; i < tabLinks.length; i++) {
+        tabLinks[i].className = tabLinks[i].className.replace(" active", " ");
+      }
+      evt.currentTarget.className = "list-group-item tabLinks active";
+    },
+  },
   mounted: function () {
   }
 }

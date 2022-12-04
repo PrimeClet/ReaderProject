@@ -1,0 +1,31 @@
+export default {
+  hello: 'Hello',
+  pages: {
+    home: {
+      sellinfo:
+        'Keep track of your favorite kind of news and get notified for updates.',
+      headline: 'Headline',
+      login: 'Login',
+      signup: 'Signup',
+      headlinetitle: 'Title goes here',
+      article: 'Article',
+      articleverification: 'Paste article link and verify',
+      verify: 'verify',
+      articletitle: 'Change title',
+      addchannel: 'Tag a Community',
+      publishbutton: 'Publish',
+      postquestion: 'Are you sure you want to post this?',
+      unreadnews: 'unread news is available refresh to view',
+      sort: 'Sort By',
+      sortbest: 'Best',
+      newest: 'Newest',
+      oldest: 'Oldest',
+      muv: 'Most Up voted',
+      random: 'Random',
+      channel: 'Channel',
+      nomore: 'no more',
+      discover: 'Discover',
+    },
+    contacts: 'Contatti',
+  },
+}
