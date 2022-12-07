@@ -146,6 +146,117 @@
        </nav>
      </div>
    </header>
+   <!-- Header -->
+   <header class="docs-navbar navbar navbar-expand-lg navbar-end navbar-light bg-white">
+     <div class="container">
+       <div class="js-mega-menu navbar-nav-wrap">
+         <!-- Logo -->
+         <a class="navbar-brand" href="../index.html" aria-label="Space">
+<!--           <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">-->
+           toto
+         </a>
+         <!-- End Logo -->
+
+         <!-- Toggle -->
+         <button type="button" class="navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target="#megaMenuAlignmentToggler" aria-label="Toggle navigation" aria-expanded="false" aria-controls="megaMenuAlignmentToggler">
+        <span class="navbar-toggler-default">
+          <i class="bi-list"></i>
+        </span>
+           <span class="navbar-toggler-toggled">
+          <i class="bi-x"></i>
+        </span>
+         </button>
+         <!-- End Toggle -->
+
+         <nav class="navbar-nav-wrap-col collapse navbar-collapse" id="megaMenuAlignmentToggler">
+           <!-- Navbar -->
+           <ul class="navbar-nav ms-auto">
+             <!-- Nav Item -->
+             <li class="hs-has-mega-menu nav-item"
+                 data-hs-mega-menu-item-options='{
+                "desktop": {
+                  "maxWidth": "85%"
+                }
+              }'>
+               <a class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" id="megaMenuAlignmentMegaMenu20rem" role="button" data-bs-toggle="dropdown" aria-expanded="false">Left aligned</a>
+
+               <!-- Mega Menu -->
+               <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="megaMenuAlignmentMegaMenu20rem">
+                 <!-- Main Content -->
+                 <div class="navbar-dropdown-menu-inner">
+                   <div class="row">
+                     <div class="col-sm-6 col-md mb-3 mb-md-0">
+                       <span class="dropdown-header">One</span>
+                       <a class="dropdown-item" href="#">One</a>
+                       <a class="dropdown-item" href="#">Two</a>
+                       <a class="dropdown-item" href="#">Three</a>
+                     </div>
+
+                     <div class="col-sm-6 col-md">
+                       <span class="dropdown-header">Two</span>
+                       <a class="dropdown-item" href="#">One</a>
+                       <a class="dropdown-item" href="#">Two</a>
+                       <a class="dropdown-item" href="#">Three</a>
+                     </div>
+                   </div>
+                   <!-- End Row -->
+                 </div>
+                 <!-- End Main Content -->
+               </div>
+               <!-- End Mega Menu -->
+             </li>
+             <!-- End Nav Item -->
+
+             <!-- Nav Item -->
+             <li class="hs-has-mega-menu nav-item"
+                 data-hs-mega-menu-item-options='{
+                "desktop": {
+                  "position": "right",
+                  "maxWidth": "85%"
+                }
+              }'>
+               <a class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" id="megaMenuAlignmentMegaMenuRightAligned" role="button" data-bs-toggle="dropdown" aria-expanded="false">Right aligned</a>
+
+               <!-- Mega Menu -->
+               <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="megaMenuAlignmentMegaMenuRightAligned">
+                 <!-- Main Content -->
+                 <div class="navbar-dropdown-menu-inner">
+                   <div class="row">
+                     <div class="col-sm-6 col-md mb-3 mb-md-0">
+                       <span class="dropdown-header">One</span>
+                       <a class="dropdown-item" href="#">One</a>
+                       <a class="dropdown-item" href="#">Two</a>
+                       <a class="dropdown-item" href="#">Three</a>
+                     </div>
+
+                     <div class="col-sm-6 col-md mb-3 mb-md-0">
+                       <span class="dropdown-header">Two</span>
+                       <a class="dropdown-item" href="#">One</a>
+                       <a class="dropdown-item" href="#">Two</a>
+                       <a class="dropdown-item" href="#">Three</a>
+                     </div>
+
+                     <div class="col-sm-6 col-md">
+                       <span class="dropdown-header">Three</span>
+                       <a class="dropdown-item" href="#">One</a>
+                       <a class="dropdown-item" href="#">Two</a>
+                       <a class="dropdown-item" href="#">Three</a>
+                     </div>
+                   </div>
+                   <!-- End Row -->
+                 </div>
+                 <!-- End Main Content -->
+               </div>
+               <!-- End Mega Menu -->
+             </li>
+             <!-- End Nav Item -->
+           </ul>
+           <!-- End Navbar -->
+         </nav>
+       </div>
+     </div>
+   </header>
+   <!-- End Header -->
    <main class="pt-2">
      <div class="container-fluid">
        <div class="row px-2">

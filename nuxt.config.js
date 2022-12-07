@@ -25,25 +25,23 @@ export default {
     ],
     script: [
 
-          {
-             src: "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js",
-             type: "text/javascript"
-           },
-           {
-              src: "https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js",
-              type: "text/javascript"
-            },
-            {
-               src: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js",
-               type: "text/javascript"
-             },
-
-
-           '~/assets/js/collapse.js',
-           '~/assets/bootstrap/js/bootstrap.bundle.min.js',
-           '~/assets/sidebar/js/main.js'
-
-          ]
+      {
+        src: "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js",
+        type: "text/javascript"
+      },
+      {
+        src: "https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js",
+        type: "text/javascript"
+      },
+      {
+        src: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js",
+        type: "text/javascript"
+      },
+      '~/assets/js/collapse.js',
+      '~/assets/js/launching.js',
+       '~/assets/bootstrap/js/bootstrap.bundle.min.js',
+       '~/assets/sidebar/js/main.js'
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
