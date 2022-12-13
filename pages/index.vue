@@ -1,5 +1,5 @@
 <template>
-  <div class="col-lg-10 col-md-12  col-sm-12">
+  <div class="row col-lg-12 col-md-12  col-sm-12">
     <div class="col-lg-9 col-md-12 col-sm-12">
       <p class="gray pb-3 entete">Recently Added</p>
       <recent-books :recent-books="recentBooks"></recent-books>
@@ -7,9 +7,8 @@
       <p class="gray pb-3 entete">Recommended for you</p>
       <recommend-books :recommended-book="books"></recommend-books>
       <!-- End Row -->
-
     </div>
-    <div class="col-md-3 col-sm-12"></div>
+    <div class="col-lg-3 col-md-3 col-sm-12"></div>
   </div>
 </template>
 
